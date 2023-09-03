@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Operating Syste - Learn</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    
+    Operating Syste - Learn(Js Api)
+    
+  </nav>
+  
+  <br>
+  <br>
+  
+  <h4>
+    <ul>
+      <li>
+        Start learning by selecting the version of your API
+      </li>
+    </ul>
+  </h4>
+  
+  <br>
+  <br>
+  <br>
+  
+  <details>
+    <summary>
+      Version 0.A.1
+    </summary>
+    <br>
+    <h4>
+      <ul>
+        <li>
+          Topics 
+        </li>
+      </ul>
+    </h4>
+    <br>
+    <br>
+    
+    
+    <details class="details">
+      
+      <summary>
+        
+        Mouse Positions
+        
+      </summary>
+      <br>
+      <br>
+      
+      <h4>
+        <ul>
+          <li>
+            Introduction
+          </li>
+        </ul>
+      </h4>
+      <br>
+      <p>
+        
+        Mouse Positions are very important in big projects like games , server , web based os etc . These also can be used when creating an another scripting language . Mouse positions are really widely used in every 3d games and apps . Mouse has 2 axis x and y , x axis shows horizontal mouse positions and y aixs shows vertical mouse positions .
+        
+      </p>
+      <br>
+      <br>
+      
+      
+      <h4>
+        <ul>
+          <li>
+            Syntax
+          </li>
+        </ul>
+      </h4>
+      <br>
+      
+     <p> For getting the mouse position with operating syste js api we uses Mouse object with it's methods . the syntax is Mouse.[axis] suppose i want to get x axis position of the mouse so i can use Mouse.x(); and if i want to get the y axis position of mouse i can use Mouse.y(); if i want to get both axis position so i can use Mouse.get_Pos(); that simple right . here's a basic programm to getting x and y axis of the mouse . </p> <br><br>
+      
+      
+      <div class="code">
+        <br>
+        // creating a function <br>
+        function getting_x_Position_of_the_mouse(){ <br><br>
+        
+          // getting he mouse x position <br>
+          var x = Mouse.x(); <br><br>
+          
+          return x; <br> <br>
+        
+        } <br>
+        
+      </div>
+      
+      
+    </details>
+    
+    <br><br>
+    
+    <details class="details">
+      <summary>
+        
+        uuid
+        
+      </summary>
+      <br><br>
+      
+      <h4>
+        <ul>
+          <li>
+            Introduction
+          </li>
+        </ul>
+      </h4>
+      <br>
+      
+      <p>
+        uuid stands for Universally Unique IDentifier . uuid is a unique collection of texts with (-) sign . all uuid's are different means if a uuid has been created so another uuid will be different not be same . means a uuid created is unique and rare . uuid's can be used any where most commonly uuid's are used in minecraft bedrock and pocked edition resource packs . uuid's are free to generate and use you can generate a uuid with the help of a tool or with the help of a programming language . 
+      </p><br><br>
+      
+      <h4><ul>
+        <li>
+          Syntax
+        </li>
+      </ul></h4>
+      <br>
+      
+      <p>
+        For creating uuid with the help of operating syste api you need to use uuid object with it's methods . syntax is uuid.[method] . there is only 1 method of uuid object which is create() method so for creating a uuid with operating syste js api you can write uuid.create(); this will generate many uuid as per demand . Here's a basic example for you understanding <br><br>
+        
+        <div class="code">
+          <br>
+          // this code will generate infinite uuid as page refresh <br><br>
+          
+          // making and building the popup for showing uuid <br>
+          alert(uuid.create());<br>
+          
+        </div>
+      </p>
+    </details>
+    
+    <br><br>
+    
+    <details class="details">
+      
+      <summary>
+        int 
+      </summary>
+<br><br>
+
+<h4>
+  <ul>
+    <li>
+      Introduction
+    </li>
+  </ul>
+</h4>
+<br>
+
+<P>int is a function of operating syste js api used for convert a string which has numbers inside it into number by removing string cotes ("", '') . this function is also widely used in many apps most commonly in calculators . </P>
+
+
+<br><br>
+
+<h4>
+  <ul>
+    <li>
+      Syntax 
+    </li>
+  </ul>
+</h4>
+<br>
+
+For using int() function you can use as you want , means use this anywhere in the program we suggest to create a variable name and store int() inside that . int takes only 1 argument which is the strinbg variable in which the numbers are stored , like there is a variable a in which numbers are storen in the form of string so i can create a another variable with another name suppose i created a variable b so inside b i will write int() function and inside int i will write a for convert a into number then i can use b as for any numerical operations . for explanation here's a program . <br><br>
+
+<div class="code"><br>
+  var a = "1234";<br><br>
+  
+  var b = int(a);<br><br>
+  
+  alert(b + 9);<br>
+</div>
+      
+    </details>
+    
+    
+    <br><br>
+    
+    
+    
+    <details class="details">
+      
+      <summary>
+        
+        code
+        
+      </summary>
+      <br><br>
+      
+      <h4>
+        <ul>
+          <li>
+            Introduction
+          </li>
+        </ul>
+      </h4><br>
+      
+      <p>
+        code is a object of operating syste js api use for generate numerical codes like otp etc . codes are commonly and widely used in security pages . code has only 1 method generate which is takes the length of code and then generates a random unique code . 
+      </p><br><br>
+      
+      <h4>
+        <ul>
+          <li>
+            Syntax
+          </li>
+        </ul>
+      </h4><br>
+      <p>
+        For using code object of operating syste js api we uses code.[methods] . but code has onlly one method which use to generate code which is generate() method , generate method takes the length of code with syntzx generate([length]) , for example i want to generate a 6 digit code so i will use code.generate(6); , here's a example for your understanding <br><br>
+        
+        <div class="code">
+          // generating otp using code <br><br>
+          
+          var otp = code.generate(6);<br><br>
+          
+          alert("your otp is " + otp);<br>
+        </div>
+      </p>
+    </details>
+    <br><br>
+    
+    
+    
+    
+    
+    <details class="details">
+      
+      <summary>
+        clicks
+      </summary>
+      <br><br>
+      
+      <h4>
+        <ul>
+          <li>
+            Introduction
+          </li>
+        </ul>
+      </h4><br>
+      
+      <p>
+        clicks is a object of opareting syste js api used to measure user clicks . For example you want to meassure that how much user has been clicked on an element so you can use click object with it's methods . currently clicks only has 1 method count() which use to count the clicks and return the click value in int() format . 
+      </p>
+      <br><br>
+      
+      
+      <h4>
+        <ul>
+          <li>
+            Syntax
+          </li>
+        </ul>
+      </h4>
+      <br>
+      
+      For using clicks method of operating syte js api you need to write clicks.[methods] . clicks only has 1 method count() which is use to cout the clicks by user on an element . . count() syntax is count([id of the element for which user clicks will be counted]) . for example i have a button with id btn and i want to count user clicks so i will write clicks.count("btn"); this will get the button and start by counting clicks . Here's a brief code for you to understand . <br><br>
+      
+      <div class="code">
+        // we will count users clicks on a div with id art and show you clicked and times .<br><br>
+        
+        function measure_Clicks(){<br>
+          var click = clicks.count("art");<br>
+          alert("You clicked " + click + " times");<br>
+        }<br>
+      </div>
+    </details>
+    
+    <br><br>
+    
+    
+    
+    
+    
+    
+    <details class="details">
+      <summary>
+        cache
+      </summary><br><br>
+      
+      <h4>
+        <ul>
+          <li>
+            Introduction
+          </li>
+        </ul>
+      </h4>
+      <br>
+      
+      
+      <p>
+        
+        
+        cache is use to store the meta data by operating syste js api . it is most important thing in operating syste js api . for creating a cache in yout html file you can create a div with id cache it will be sed means you needed to write <input class="inp" value='<div id="cache"></div>'> or in js you can use cache method if your browser supports else you need to use html with creating a div giving a id cache .
+        
+         <br><br>
+         
+         <h4>
+           
+           <ul>
+             <li>
+               Syntax 
+             </li>
+           </ul><br>
+           
+           </h4>
+           <p>
+             for using cache method of operating syste js api you can use cache.[methods] . currently cache 3 methods clear(), ulilise(), create() . clear() method doesn't take any argument but uses to clear the cache data means the code inside thecache will be erased . utilise() method use to utilise the cache with data , means with the help of utilise() method you can write the code inside cache , syntax is utilise([data]), suppose i want to write a h1 tag in cache so i wll write cache.utilise("<input class="inp" value='<h1>hy</h1><1--cache-->'>"); . create() method is depend you browser has support for this or not if not then you can create a cache in your html file with creating a div with id cache which we has already discussed earlier else you can use create() method , just write cache.create(); . Here's a example code that shows how to use cache .
+           </p>
+           
+         
+        
+        
+      </p>
+      <br><br>
+      
+      <div class="code">
+        // creating and utilising the cache <br>
+        cache.create();<br><br>
+        
+        cache.utilise("hellow world");<br><br>
+        
+        cache.clear();<br>
+      </div>
+      
+      
+    </details>
+    <br><br>
+    
+    
+    
+    
+    
+    <details class="details">
+      <summary>
+        click
+      </summary><br><br>
+      
+      <h4>
+        <ul>
+          <li>
+            Introduction
+          </li>
+        </ul>
+      </h4><br>
+      
+      <p>
+        click is a funcion odf operating syste js api use to click on an element by using it's id . suppose you want to click on a button using js and button has a id btn so you can use click function with giving button id .
+      </p>
+      
+      <br><br>
+      
+      <h4>
+        <ul>
+          <li>
+            Syntax
+          </li>
+        </ul>
+      </h4>
+      
+      <br>
+      
+      
+      <p>
+        
+        For using clicks() function of operating syste js api you can write click([id of the element which should be clicked]); for example i want to click on a button with a id btn so i will write click("btn") . Here's a code for your understanting. <br><br> 
+        
+      </p>
+      
+      
+      <div class="code">
+        // clicking on a button with a id btn
+        <br><br>
+        click("btn");<br><br>
+        
+      </div>
+      
+      
+      
+    </details><br><br>
+    
+    
+    
+    
+    
+    <details class="details">
+      <summary>
+        create
+      </summary><br><br>
+      
+      
+      
+      <h4>
+        
+        
+        <ul>
+          <li>
+            
+            Introduction
+            
+          </li>
+        </ul>
+      </h4>
+        <br>
+        
+        
+        <p>
+          
+          create function is used to create an work of a seperate operating syste js api function or object method . like if i want to create a cache so i can write cache.create(); or i can use create object for create a cache . <br><br>
+          
+        </p>
+        
+        
+        <h4>
+          
+          
+          <ul>
+            <li>
+              
+              
+              Syntax
+              
+            </li>
+          </ul>
+          
+          
+        </h4>
+        
+        <br><br>
+        
+        
+       <p> 
+        For using create method of operating syste js api you can use create.[methods] , currently create has only 1 method cache() because cache is only 1 that can can be created or destroyed by operating syste js api so for creating cache by create object i can write create.cache(); . Here's a basic program to do this .
+        
+       </p>
+       
+       
+       <br><br>
+       
+       
+       
+       <div class="code">
+         create.cache();
+       </div>
+        
+      
+      
+      
+      
+    </details>
+    
+    <br><br>
+    
+    
+    
+    
+    
+    
+    <details class="details">
+      <summary>
+        webpage
+      </summary>
+      <br><br>
+      
+      
+      
+      <h4>
+        
+        <ul>
+          <li>
+            
+            
+            Introduction
+            
+            
+          </li>
+        </ul>
+        
+      </h4>
+      
+      
+      
+      
+      <br>
+      
+      <br>
+      
+      
+      
+      
+      
+      <p>
+        
+        
+        
+        
+        webpage object is used to open a webpage with ultimate power . It's a very powerfull object that opens a webpage but any browser popup blockers can't block this by opening a webpage it's a ultimately very powerfull object . 
+        
+        
+        
+        
+      </p>
+      
+      
+      <br>
+      
+      
+      
+      <br>
+      
+      
+      
+      
+      
+      
+      <h4>
+        
+        
+        <ul>
+          <li>
+            
+            
+            Syntax
+            
+            
+          </li>
+        </ul>
+        
+        
+      </h4>
+      <br>
+      
+      
+      
+      
+      <p>
+        
+        
+        For using webpage object of operating syste js api we uses webpage.[methods] , webpage only has 1 method open() which takes the url or location of a webpage or file which should be open without any popup issues . open() syntax us open([url or location of file or webpage which should be open]); for example i want to open https://fozdtx.github.io/weblock/ so i will write webpage.open("https://fozdtx.github.io/weblock/"); or if i want to open a local file so i will write webpage.open("filename.txt"); . Here's a code which will help you to understanding webpage object . note that webpage also uses cache so before using webpage make sure you has created the cache else you will got errors . 
+        
+        
+      </p>
+      
+      
+      <br><br>
+      
+      
+      
+      
+      <div class="code"><br>
+        cache.create();
+        <br><br>
+        webpage.open("https://fozdtx.github.io/alvax/");<br>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+    </details>
+    
+    
+    
+    <br>
+    
+    
+    <br>
+    
+    
+    
+    
+    
+    
+    
+    <details class="details">
+      
+      
+      <summary>
+        
+        
+        install
+        
+        
+      </summary>
+      
+      
+      <br>
+      
+      
+      <br>
+      
+      
+      
+      <h4>
+        
+        
+        <ul>
+          <li>
+            
+            
+            Introduction
+            
+            
+          </li>
+        </ul>
+        <br>
+        
+        
+        
+        
+        
+        
+      </h4>
+      
+      
+      
+      
+      
+      <p>
+        
+        
+        instal() function is use to install api, plugin etc available on foz dtx library . support you want to install ghgltggamer js api so you can use install function to done that smartly and easily . 
+        
+        
+        
+      </p>
+      
+      
+      <br><br>
+      
+      
+      
+      <h4>
+        
+        <ul>
+          <li>
+            
+            Syntax
+            
+          </li>
+        </ul>
+        
+        
+      </h4>
+      
+      
+      
+      
+      <p>
+        
+        
+        For using install() function of operating syste js api you can write install([args]) . args stands for arguments and install() function currently has only 1 argument list which install all js api available on foz dtx library . for example i want to install all api available on foz dtx library so i will write install(list); note that install() function also uses cache so before using install function you need to create a cache else you will got errors . Here's a code which will help you to understand install function perfectly . <br><br>
+        
+        
+      </p>
+      
+      
+      
+      <div class="code">
+        create.cache();<br><br>
+        
+        install(list);<br>
+      </div>
+      
+      <br><br><br><br>
+      
+      
+      <h1>
+        
+        <center>
+          
+          
+          
+          
+          <b>
+            
+            
+            
+            <i>
+              
+              
+              
+              <u>
+                
+                
+                
+                
+                
+                Congratulations you'va been officially completed learning this version of operating syste js api . Now you can develop high quality web apps using this version of operating syste js api . Congratulations 💐💐💐
+                
+                
+                
+                
+                
+              </u>
+              
+              
+              
+            </i>
+            
+            
+            
+          </b>
+          
+          
+          
+          
+          
+        </center>
+        
+      </h1>
+      
+      
+      
+      
+      
+      
+      
+    </details>
+    
+    
+    
+    
+    
+    
+    
+  </details>
+  
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
