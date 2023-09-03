@@ -1,0 +1,50 @@
+body {
+  font: monospace;
+  background: whitesmoke;
+  margin: 0px;
+}
+nav{
+  background: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 40px;
+}
+details{
+  background: white;
+  color: black;
+  padding: 30px;
+  cursor: pointer;
+  
+}
+details summary{
+  cursor: pointer;
+  user-select: none;
+}
+
+
+
+.details{
+  background: whitesmoke;
+  color: black;
+  padding: 30px;
+  cursor: pointer;
+  
+}
+.details summary{
+  cursor: pointer;
+  user-select: none;
+}
+
+.code{
+  background: #1c1c1c;
+  color: white;
+  padding: 20px;
+  height: 200px;
+  width: 70%;
+  overflow: scroll;
+}
+.inp{
+  border: 0px solid transparent;
+  user-select: none;
+  font-weight: bold;
+}
